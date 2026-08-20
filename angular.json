@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "sakai-ng-with-direction": {
+        "sakai-rtl-admin": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": "dist/sakai-ng-with-direction",
+                        "outputPath": "dist/sakai-rtl-admin",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "tsConfig": "tsconfig.app.json",
@@ -68,10 +68,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "sakai-ng-with-direction:build:production"
+                            "buildTarget": "sakai-rtl-admin:build:production"
                         },
                         "development": {
-                            "buildTarget": "sakai-ng-with-direction:build:development"
+                            "buildTarget": "sakai-rtl-admin:build:development"
                         }
                     },
                     "defaultConfiguration": "development"

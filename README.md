@@ -1,6 +1,6 @@
-# Sakai NG with Direction
+# Sakai RTL Admin
 
-An Angular 21 admin template based on [Sakai](https://github.com/primefaces/sakai-ng) and PrimeNG, enhanced with complete runtime **RTL and LTR direction support**.
+**Sakai RTL Admin** is an Angular 21 admin template based on [Sakai](https://github.com/primefaces/sakai-ng) and PrimeNG, enhanced with complete runtime **RTL and LTR direction support**.
 
 This project preserves the familiar Sakai experience while fixing the layout details that usually break when an application switches to a right-to-left interface: sidebar placement, content offsets, menu indentation, icon spacing, mobile navigation, overlay transitions, topbar alignment, and responsive behavior.
 
@@ -14,7 +14,7 @@ It is designed for developers building multilingual or RTL-first dashboards for 
 
 ## Preview
 
-![Sakai NG with Direction preview](docs/sakai-ng-with-direction-preview.png)
+![Sakai RTL Admin preview](docs/sakai-ng-with-direction-preview.png)
 
 ## Why this repository exists
 
@@ -82,7 +82,7 @@ Open [http://localhost:4200](http://localhost:4200).
 npm run build
 ```
 
-The production bundle is generated in `dist/sakai-ng-with-direction`.
+The production bundle is generated in `dist/sakai-rtl-admin`.
 
 ## Project structure
 

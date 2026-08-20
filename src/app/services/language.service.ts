@@ -6,7 +6,7 @@ type TranslationKey =
     | 'topbar.direction';
 
 const TRANSLATIONS: Record<TranslationKey, string> = {
-    'brand.name': 'Sakai NG Direction',
+    'brand.name': 'Sakai RTL Admin',
     'topbar.direction': 'Toggle page direction'
 };
 
